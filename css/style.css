@@ -5,7 +5,11 @@
 .header{
   background-color: #1ebcd1;
   display: flex;
-  max-width: 1400px;
+  max-width: 100%;
+}
+.header-content {
+  display: flex;
+  width: 1400px;
   margin: auto;
   padding: 20px;
   align-items: center;
@@ -14,11 +18,12 @@
 }
 .left-part{
   display: flex;
+  align-items: flex-end;
 }
 .menu {
   border:none;
-  width: 16px;
-  height: 16px;
+  width: 21px;
+  height: 21px;
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -34,6 +39,10 @@
 .header-text{
   margin-left: 20px;
   color:#fff;
+}
+.search{
+  display: flex;
+  align-items: center;
 }
 .search-input{
   border: none;

@@ -37,7 +37,7 @@
   background-color: #fff;
 }
 .header-text{
-  margin-left: 20px;
+  margin-left: 10px;
   color:#fff;
 }
 .search{
@@ -53,7 +53,7 @@
 }
 .search-icon{
   fill: #fff;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .main {
   display: flex;
